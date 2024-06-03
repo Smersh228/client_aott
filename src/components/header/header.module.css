@@ -1,0 +1,11 @@
+.header {
+    width: 100%;
+    min-height: 60px;
+}
+body{
+
+    background-image: url(Menu.jpg);
+    cursor: url(../navBar/wot_arrow.cur),pointer;
+
+    background-size: cover;
+}

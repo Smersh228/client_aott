@@ -1,0 +1,116 @@
+.main_text {
+    transition: 0.5s;
+ color: black;
+ margin-left: 700px;
+ background-color: rgba(219, 213, 205, 0.418);
+ border-radius: 5px;
+ font-size: 46px;
+ text-align: center;
+}
+
+.main_text:hover {
+    color: rgb(199, 25, 25);
+    margin-left: 700px;
+    background-color: rgba(240, 234, 227, 0.63);
+    border-radius: 5px;
+    font-size: 46px;
+    
+    cursor: url(wot_link.cur), pointer;
+   }
+.navBar{
+
+display: flex;
+
+align-items: center;
+}
+.navBar a{
+    text-decoration: none;
+}
+.navBar_item{
+    transition: 0.3s;
+    padding: 10px;
+    width: 120px;
+    height: 50px;
+    text-align: center;
+    border: 3px solid rgb(110, 100, 100);
+    margin-right: 0px;
+    font-size: 24px;
+    color: rgb(224, 194, 194);
+    background-color: rgb(75, 56, 56);
+    font-family: 'Courier New', Courier, monospace;
+    display: inline-flex;
+    justify-content: center;
+    font-weight: bold;
+  
+}
+.navBar_item:last-child{
+    margin-right: 0;
+}
+
+.navBar_item:hover{
+   
+    border: 3px solid rgb(78, 32, 32);
+    font-size: 25px;
+    text-align: center;
+    color: black;
+    background-color: rgb(114, 82, 82);
+    
+    cursor: url(wot_link.cur), pointer;
+}
+
+.navBar_item1 {
+    padding: 10px;
+    border: 3px solid rgb(92, 84, 84);
+    margin-left: 500px;
+    font-size: 30px;
+    color: rgb(224, 194, 194);
+    background-color: rgb(75, 56, 56);
+    font-family: 'Courier New', Courier, monospace;
+    font-style: italic;
+    font-weight: bold;
+
+
+}
+
+.navBar_item10{
+    padding: 10px;
+    border: 3px solid rgb(92, 84, 84);
+    margin-right: 0px;
+    font-size: 30px;
+    color: rgb(224, 194, 194);
+    background-color: rgb(75, 56, 56);
+    font-family: 'Courier New', Courier, monospace;
+    font-style: italic;
+    font-weight: bold;
+    visibility: collapse;
+    
+}
+
+.navBar_item12{
+    transition: 0.3s;
+    padding: 10px;
+    width: 120px;
+    height: 50px;
+    text-align: center;
+    border: 3px solid rgba(110, 100, 100, 0.281);
+    margin-right: 0px;
+    font-size: 24px;
+    color: rgba(224, 194, 194, 0.291);
+    background-color: rgba(75, 56, 56, 0.413);
+    font-family: 'Courier New', Courier, monospace;
+    display: inline-flex;
+    justify-content: center;
+    font-weight: bold;
+  
+}
+
+.navBar_item12:hover{
+   
+    border: 3px solid rgba(110, 100, 100, 0.281);
+    font-size: 25px;
+    text-align: center;
+    color: rgba(224, 194, 194, 0.291);
+    background-color: rgba(75, 56, 56, 0.413);
+    
+    cursor: url(wot_no.cur), pointer;
+}

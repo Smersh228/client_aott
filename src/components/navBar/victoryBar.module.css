@@ -1,0 +1,69 @@
+.victoryBarSov {
+color: rgb(255, 0, 0);
+position: fixed;
+left: 37%;
+font-weight: bold;
+z-index: 100;
+bottom: 47%;
+background-color: rgba(230, 222, 222, 0.367);
+border-radius: 3px;
+text-align: center;
+align-items: center;
+width: 200px;
+padding: 5px;
+
+font-family: 'Courier New', Courier, monospace;
+
+}
+
+.victoryBarWer {
+
+color: rgb(90, 72, 72);
+position: fixed;
+left: 37%;
+font-weight: bold;
+z-index: 100;
+bottom: 47%;
+background-color: rgba(230, 222, 222, 0.367);
+border-radius: 3px;
+text-align: center;
+align-items: center;
+width: 200px;
+padding: 5px;
+
+font-family: 'Courier New', Courier, monospace;
+
+    
+    }
+
+    .victoryBar {
+        font-size: 20px;
+        color: rgb(0, 0, 0);
+        margin-left: -180px;
+        background-color: rgba(255, 255, 255, 0.618);
+        border-radius: 3px;
+        width: 60px;
+        
+        }
+        .end_play {
+            transition: 0.3s;
+            cursor: url(../../components/navBar/wot_link.cur), pointer;
+            border-radius: 5px;
+            font-size: 18px;
+            border: 1px white;
+            margin-left: auto;
+            margin-top: 5%;
+            margin-bottom: 5%;
+            font-family: 'Courier New', Courier, monospace;
+
+       
+
+
+        }
+
+
+        .end_play:hover {
+            background-color: rgb(194, 189, 189);
+
+            
+        }
