@@ -1,0 +1,18 @@
+.tank{
+    width: 49px;
+    height: 49px;
+    position: absolute;
+   z-index: -239239;
+    
+}
+.tank img{
+    width: 55px;
+    height: 40px;
+cursor: url(../../components/navBar/wot_link.cur),pointer;
+
+}
+
+.active{
+    box-shadow: 10px 5px 5px rgba(204, 223, 204, 0);
+  
+}
