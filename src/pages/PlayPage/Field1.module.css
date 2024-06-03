@@ -1,0 +1,195 @@
+.field {
+    /* width: fit-content; */
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    padding: 30px 0;
+   
+    
+
+  
+    /* position: relative; */
+   
+   
+   
+}
+
+.blockChoicePLayer {
+    display: flex;
+    padding: 10px;
+  
+}
+
+.blockChoicePLayer_item {
+    margin-right: 10px;
+    cursor: pointer;
+  
+}
+
+.blockChoicePLayer_item:hover {
+    color: red
+}
+
+.field_fight {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    width:  fit-content;
+  
+    /* transform: rotate(90deg); */
+}
+
+.row {
+    display: flex;
+  
+}
+
+
+.cell {
+    /* border: 3px solid black; */
+    cursor: url(../../components/navBar/wot_arrow.cur), pointer;
+    
+    
+}
+
+
+
+.cell_disActive {
+    width: 40px;
+    height: 45px;
+    background: rgba(185, 159, 159, 0);
+    border-radius: 15px;
+   
+    position: absolute;
+    top: 4%;
+    left: 50%;
+}
+
+.col img {
+    width: 83px;
+    height: 70px;
+    align-items: center;
+    
+    /* transform: rotate(30deg) ; */
+}
+
+.row img {
+    width: 50px;
+    height: 50px;
+    align-items: center;
+   
+    /* transform: rotate(30deg) ; */
+   
+}
+
+.list__tanks{
+    position: absolute;
+    top: 10%;
+    left: 80%;
+    font-size: 14px;
+    color: rgb(241, 231, 231);
+    font-weight: bold;
+}
+
+
+.activeFire{
+    cursor: url(../../components/navBar/wot_link.cur), pointer;
+    position: absolute;
+    width: 49px;
+    height: 40px;
+    transform: translate(-5px, -5px);
+    /* top: 0;
+    left: 0; */
+    /* right: 0;
+    bottom: 0; */
+    z-index: 9999;
+    background: #140e0e77;
+    border-radius: 15px;
+    margin-left: 8px;
+    margin-top: 5px;
+   
+}
+
+
+.cell_active {
+    cursor: url(../../components/navBar/wot_link.cur), pointer;
+    width: 44px;
+    height: 68px;
+    background-color:rgba(19, 20, 22, 0.217);
+    top:2px;
+    left: 19px;
+     position: absolute;
+    
+}
+
+.cell_active::after {
+    cursor: url(../../components/navBar/wot_link.cur), pointer;
+    content: '';
+    position: absolute;
+    bottom: 19px;
+    left: -46px;
+    border-left: 33px solid transparent;
+    border-right: 40px solid transparent;
+    border-top: 20px solid rgba(19, 20, 22, 0.217);
+}
+.cell_active::before {
+    cursor: url(../../components/navBar/wot_link.cur), pointer;
+    content: '';
+    position: absolute;
+    top: 29px;
+    left: 17px;
+    border-left: 29px solid transparent;
+    border-right: 45px solid transparent;
+    border-bottom: 20px solid rgba(19, 20, 22, 0.217);
+}
+
+.cell_active:before {
+    cursor: url(../../components/navBar/wot_link.cur), pointer;
+    transform: rotate(90deg);
+  }
+  
+  .cell_active:after {
+    transform: rotate(90deg);
+    cursor: url(../../components/navBar/wot_link.cur), pointer;
+  }
+
+  .cell_def {
+    cursor: url(../../components/navBar/wot_link.cur), pointer;
+    width: 44px;
+    height: 68px;
+    background-color:rgba(19, 20, 22, 0.217);
+    top:2px;
+    left: 19px;
+     position: absolute;
+}
+.cell_def::before {
+    cursor: url(../../components/navBar/wot_link.cur), pointer;
+    content: '';
+    position: absolute;
+    top: 29px;
+    left: 17px;
+    border-left: 29px solid transparent;
+    border-right: 45px solid transparent;
+    border-bottom: 20px solid rgba(19, 20, 22, 0.217);
+}
+.cell_def::after {
+    cursor: url(../../components/navBar/wot_link.cur), pointer;
+    content: '';
+    position: absolute;
+    bottom: 19px;
+    left: -46px;
+    border-left: 33px solid transparent;
+    border-right: 40px solid transparent;
+    border-top: 20px solid rgba(19, 20, 22, 0.217);
+}
+
+
+.cell_def:before {
+    transform: rotate(90deg);
+  }
+  
+  .cell_def:after {
+    transform: rotate(90deg);
+  }

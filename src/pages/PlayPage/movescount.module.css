@@ -1,0 +1,47 @@
+
+.block{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+   
+   
+}
+.activeTeam {
+padding: 0 10px;
+}
+.count {
+    font-family: 'Courier New', Courier, monospace;
+padding: 0 30px;
+margin-left: -400%;
+
+}
+.nextTeam{
+    font-family: 'Courier New', Courier, monospace;
+    transition: 0.5s;
+    border: 1px solid black;
+    padding: 0 30px;
+    position: fixed;
+   left: 53%;
+   text-align: center;
+width: 10%;
+flex: none;
+    
+cursor: url(../../components/navBar/wot_link.cur),pointer;
+}
+
+.nextTeam:hover{
+    border: 1px solid rgb(255, 255, 255);
+    background-color: rgb(95, 88, 88);
+    padding: 0 30px;
+
+
+}
+
+.divs {
+
+
+    background-image: url(./786.svg);
+    width: 64px;
+    height: 64px;
+}
