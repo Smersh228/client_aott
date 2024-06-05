@@ -70,7 +70,7 @@ useEffect(() => {
  }/>
 <Route path='/sueta111/play' element={<PlayPage/>}/>
 <Route path='/sueta111/info' element={<InfoPage/>}/>
-<Route path='/sueta111/server' element={<Server />}/>
+<Route path='/sueta111/server' element={<Server id={1} />}/>
 <Route path='/sueta111/lobby/:id' element={<Lobby/>}/>
 <Route path='/sueta111/play/:id' element={<CartServer/>}/>
 <Route path='/sueta111/infopage' element={<InfoPageAot/>}/>
