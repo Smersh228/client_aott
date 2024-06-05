@@ -13,7 +13,7 @@ import {
   respawnCoordinates
 } from "../../logicGame/changeCoordinates";
 import { fireFunc } from "../../logicGame/fireLogic";
-import { MovesCount1 } from "./movesCountServer";
+import { MovesCount1 } from "./movesCountServer1";
 import { sectorFire } from "../../logicGame/sectorFireLogic";
 import { calcActiveCell1 } from "../../logicGame/calcCells";
 
